@@ -13,7 +13,7 @@ Checking python;s generic operations
 """
 aa = 'Hello'
 aa.capitalize
-a = len(aa)
+a = len(aa)  # len generic to all dt
 
 print(aa.find('e'))  # will print the index of the character(c-sens)
 print(aa.find('elil'))  # -1 for no existent
